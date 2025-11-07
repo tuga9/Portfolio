@@ -6,7 +6,7 @@ const Hero = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [showCursor, setShowCursor] = useState(true);
   
-  const texts = ['Apprenti en exploitation et infrastructure', 'Créateur d\'Applications', 'Passionné d\'Innovation'];
+  const texts = ['Apprenti en exploitation et infrastructure',];
   const currentText = texts[Math.floor(currentIndex / 55) % texts.length];
 
   useEffect(() => {
@@ -65,8 +65,8 @@ const Hero = () => {
           </div>
 
           <p className="text-xl text-gray-400 max-w-2xl mx-auto leading-relaxed">
-            Passionné par l'informatique, je crée des expériences numériques
-            innovantes qui allient performance technique et design moderne.
+              Passionné par l’informatique et toujours envie d’apprendre, j’aime explorer de nouveaux domaines,
+              relever des défis techniques et élargir mes connaissances en continu.
           </p>
 
           <div className="flex justify-center space-x-6 pt-8">
