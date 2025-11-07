@@ -23,14 +23,8 @@ const Contact = () => {
     {
       icon: Mail,
       label: 'Email',
-      value: 'votre.email@example.com',
+      value: 'brunobarreira7@hotmail.com',
       href: 'mailto:brunobarreira7@hotmail.com'
-    },
-    {
-      icon: Phone,
-      label: 'Téléphone',
-      value: '+41 79 593 76 09',
-      href: 'tel:+41795937609'
     },
     {
       icon: MapPin,
@@ -101,76 +95,6 @@ const Contact = () => {
                 ))}
               </div>
             </div>
-          </div>
-
-          {/* Formulaire de contact */}
-          <div className="bg-gray-900 p-8 rounded-lg">
-            {isSubmitted ? (
-              <div className="text-center py-8">
-                <CheckCircle className="w-16 h-16 text-green-400 mx-auto mb-4" />
-                <h3 className="text-white text-xl font-semibold mb-2">
-                  Message envoyé !
-                </h3>
-                <p className="text-gray-400">
-                  Je vous répondrai dans les plus brefs délais.
-                </p>
-              </div>
-            ) : (
-              <form onSubmit={handleSubmit} className="space-y-6">
-                <div>
-                  <label htmlFor="name" className="block text-white font-medium mb-2">
-                    Nom complet
-                  </label>
-                  <input
-                    type="text"
-                    id="name"
-                    required
-                    value={formData.name}
-                    onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                    className="w-full px-4 py-3 bg-gray-700 text-white rounded-lg focus:ring-2 focus:ring-purple-500 focus:outline-none transition-all duration-300"
-                    placeholder="Votre nom"
-                  />
-                </div>
-
-                <div>
-                  <label htmlFor="email" className="block text-white font-medium mb-2">
-                    Email
-                  </label>
-                  <input
-                    type="email"
-                    id="email"
-                    required
-                    value={formData.email}
-                    onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                    className="w-full px-4 py-3 bg-gray-700 text-white rounded-lg focus:ring-2 focus:ring-purple-500 focus:outline-none transition-all duration-300"
-                    placeholder="votre@email.com"
-                  />
-                </div>
-
-                <div>
-                  <label htmlFor="message" className="block text-white font-medium mb-2">
-                    Message
-                  </label>
-                  <textarea
-                    id="message"
-                    required
-                    rows={6}
-                    value={formData.message}
-                    onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                    className="w-full px-4 py-3 bg-gray-700 text-white rounded-lg focus:ring-2 focus:ring-purple-500 focus:outline-none transition-all duration-300 resize-none"
-                    placeholder="Décrivez votre projet..."
-                  />
-                </div>
-
-                <button
-                  type="submit"
-                  className="w-full bg-gradient-to-r from-purple-500 to-blue-500 text-white py-4 px-6 rounded-lg font-semibold hover:from-purple-600 hover:to-blue-600 transform hover:scale-105 transition-all duration-300 flex items-center justify-center space-x-2"
-                >
-                  <Send className="w-5 h-5" />
-                  <span>Envoyer le message</span>
-                </button>
-              </form>
-            )}
           </div>
         </div>
       </div>

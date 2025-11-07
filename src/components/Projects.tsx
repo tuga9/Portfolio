@@ -10,8 +10,8 @@ const Projects = () => {
       image: 'https://i.ytimg.com/vi/ihvBiJ1oC9U/maxresdefault.jpg',
       tags: ['Python', 'Pygame'],
       icon: Smartphone,
-      liveUrl: '#',
-      githubUrl: '#'
+      liveUrl: 'https://github.com/tuga9',
+      githubUrl: 'https://github.com/tuga9'
     },
     {
       id: 2,
@@ -20,8 +20,8 @@ const Projects = () => {
       image: 'https://cdn.freebiesupply.com/logos/thumbs/2x/docker-logo.png',
       tags: ['Docker'],
       icon: Zap,
-      liveUrl: '#',
-      githubUrl: '#'
+      liveUrl: 'https://github.com/tuga9',
+      githubUrl: 'https://github.com/tuga9'
     },
   ];
 

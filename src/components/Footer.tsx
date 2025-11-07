@@ -3,9 +3,9 @@ import { Heart, Github, Linkedin, Mail } from 'lucide-react';
 
 const Footer = () => {
   const socialLinks = [
-    { href: 'https://github.com', icon: Github, label: 'GitHub' },
-    { href: 'https://linkedin.com', icon: Linkedin, label: 'LinkedIn' },
-    { href: 'mailto:votre.email@example.com', icon: Mail, label: 'Email' }
+    { href: 'https://github.com/tuga9', icon: Github, label: 'GitHub' },
+    { href: 'https://www.linkedin.com/in/bruno-alves-barreira-a1941a27b/', icon: Linkedin, label: 'LinkedIn' },
+    { href: 'mailto:brunobarreira7@hotmail.com', icon: Mail, label: 'Email' }
   ];
 
   return (
@@ -35,7 +35,7 @@ const Footer = () => {
 
           {/* Copyright */}
           <div className="flex items-center space-x-2 text-gray-400 text-center">
-            <span>© 2024 Portfolio. Fait avec</span>
+            <span>© 2025 Portfolio. Fait avec</span>
             <Heart className="w-4 h-4 text-red-500 animate-pulse" />
             <span>Bruno</span>
           </div>

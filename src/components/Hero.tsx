@@ -71,19 +71,19 @@ const Hero = () => {
 
           <div className="flex justify-center space-x-6 pt-8">
             <a
-              href="https://github.com"
+              href="https://github.com/tuga9"
               className="group p-4 bg-gray-800 rounded-full hover:bg-blue-600 transition-all duration-300 transform hover:scale-110"
             >
               <Github className="w-6 h-6 text-white group-hover:rotate-12 transition-transform duration-300" />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/bruno-alves-barreira-a1941a27b//"
               className="group p-4 bg-gray-800 rounded-full hover:bg-blue-600 transition-all duration-300 transform hover:scale-110"
             >
               <Linkedin className="w-6 h-6 text-white group-hover:rotate-12 transition-transform duration-300" />
             </a>
             <a
-              href="mailto:votre.email@example.com"
+              href="mailto:brunobarreira7@hotmail.com"
               className="group p-4 bg-gray-800 rounded-full hover:bg-orange-600 transition-all duration-300 transform hover:scale-110"
             >
               <Mail className="w-6 h-6 text-white group-hover:rotate-12 transition-transform duration-300" />
