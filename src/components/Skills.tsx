@@ -6,21 +6,21 @@ const Skills = () => {
 
   const skillCategories = [
     {
-      title: 'Network',
+      title: 'Réseau',
       skills: [
-        { name: 'React/Next.js', level: 90 },
-        { name: 'TypeScript', level: 85 },
-        { name: 'CSS/Tailwind', level: 88 },
-        { name: 'Vue.js', level: 75 }
+        { name: 'Protocole et configuration', level: 75 },
+        { name: 'Packet Tracer', level: 80 },
+        { name: 'Monitoring', level: 75 },
+        { name: 'Sécurité Réseau', level: 70 }
       ]
     },
     {
-      title: 'Programming / Scripting',
+      title: 'Programmation et scrypt',
       skills: [
-        { name: 'Node.js', level: 85 },
-        { name: 'Python', level: 70 },
-        { name: 'SQL/NoSQL', level: 80 },
-        { name: '', level: 90 }
+        { name: 'React/Next.js', level: 60 },
+        { name: 'Python', level: 65 },
+        { name: 'SQL/NoSQL', level: 75 },
+        { name: 'CSS/Tailwind', level: 70 }
       ]
     },
     {
